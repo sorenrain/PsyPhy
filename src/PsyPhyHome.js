@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 export default function PsyPhyHome() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white px-6 py-16">
+      
+      {/* Title */}
       <motion.h1
         className="text-6xl font-extrabold text-center tracking-tight font-serif"
         initial={{ opacity: 0, y: -20 }}
@@ -12,6 +14,8 @@ export default function PsyPhyHome() {
       >
         PsyPhy
       </motion.h1>
+
+      {/* Subtitle */}
       <motion.p
         className="text-center text-gray-400 mt-4 text-xl italic"
         initial={{ opacity: 0 }}
@@ -21,7 +25,23 @@ export default function PsyPhyHome() {
         A network for explorers.
       </motion.p>
 
+      {/* Homepage Image */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.6, duration: 1 }}
+      >
+        <img
+          src="/book.jpeg"
+          alt="PsyPhy Network for Explorers"
+          className="w-full max-w-5xl mx-auto mt-12 rounded-xl shadow-[0_0_30px_rgba(255,255,255,0.1)]"
+        />
+      </motion.div>
+
+      {/* Main Content Section */}
       <div className="mt-20 max-w-2xl mx-auto space-y-10">
+
+        {/* About Section */}
         <motion.div
           className="bg-gray-900 bg-opacity-40 rounded-lg p-6 shadow-xl backdrop-blur-md"
           initial={{ opacity: 0, y: 20 }}
@@ -29,11 +49,17 @@ export default function PsyPhyHome() {
           transition={{ delay: 0.8, duration: 1 }}
         >
           <h2 className="text-2xl font-semibold mb-3">About</h2>
-          <p className="text-gray-300">
+          <p className="text-gray-300 mb-6">
             PsyPhy is a digital collective devoted to the investigation of patterns, perception, and the physics of understanding itself. We archive thought, theory, and discovery in pursuit of deeper meaning.
           </p>
+          <img
+            src="/bio.jpeg"
+            alt="About PsyPhy"
+            className="w-full rounded-xl shadow-[0_0_25px_rgba(255,255,255,0.08)]"
+          />
         </motion.div>
 
+        {/* Archive Dropdown */}
         <motion.div
           className="bg-gray-900 bg-opacity-40 rounded-lg p-6 shadow-xl backdrop-blur-md"
           initial={{ opacity: 0, y: 20 }}
@@ -53,6 +79,7 @@ export default function PsyPhyHome() {
           </select>
         </motion.div>
 
+        {/* Explore Button */}
         <motion.div
           className="text-center mt-12"
           initial={{ opacity: 0 }}
@@ -63,6 +90,7 @@ export default function PsyPhyHome() {
             Begin Exploring
           </button>
         </motion.div>
+
       </div>
     </div>
   );
