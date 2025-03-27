@@ -10,7 +10,7 @@ export default function PsyPhyHome() {
       </div>
 
       {/* Main homepage content */}
-      <div className="min-h-screen bg-gradient-to-br from-black via-emerald-800 to-gray-900 text-white px-6 py-16">
+      <div className="bg-white text-black dark:bg-[#0d0d0d] dark:text-green-300 p-6 mt-8 rounded-lg">
         <motion.h1
           className="text-6xl font-extrabold text-center tracking-tight font-serif"
           initial={{ opacity: 0, y: -20 }}
