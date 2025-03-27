@@ -3,7 +3,16 @@ import { motion } from 'framer-motion';
 
 export default function PsyPhyHome() {
   return (
-    <div className="min-h-screen bg-[url('/book.jpeg')] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-black text-white px-6 py-16">
+    <div
+      className="min-h-screen text-white px-6 py-16 bg-cover bg-center"
+      style={{
+        backgroundImage: "url('/book.jpeg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundBlendMode: 'overlay',
+        backgroundColor: 'rgba(0, 0, 0, 0.85)',
+      }}
+    >
       <motion.h1
         className="text-6xl font-extrabold text-center tracking-tight font-serif"
         initial={{ opacity: 0, y: -20 }}
@@ -12,6 +21,7 @@ export default function PsyPhyHome() {
       >
         PsyPhy
       </motion.h1>
+
       <motion.p
         className="text-center text-gray-300 mt-4 text-xl italic"
         initial={{ opacity: 0 }}
@@ -23,7 +33,7 @@ export default function PsyPhyHome() {
 
       <div className="mt-20 max-w-2xl mx-auto space-y-10">
         <motion.div
-          className="bg-black bg-opacity-60 rounded-lg p-6 shadow-xl backdrop-blur-md"
+          className="bg-black bg-opacity-50 rounded-lg p-6 shadow-xl backdrop-blur-md"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 1 }}
@@ -35,7 +45,7 @@ export default function PsyPhyHome() {
         </motion.div>
 
         <motion.div
-          className="bg-black bg-opacity-60 rounded-lg p-6 shadow-xl backdrop-blur-md"
+          className="bg-black bg-opacity-50 rounded-lg p-6 shadow-xl backdrop-blur-md"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1, duration: 1 }}
