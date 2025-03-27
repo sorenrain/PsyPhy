@@ -39,7 +39,7 @@ export default function PsyPhyHome() {
           transition={{ delay: 0.8, duration: 1 }}
         >
           <h2 className="text-2xl font-semibold mb-3">About</h2>
-          <p className="text-gray-300">
+          <p className="text-cyan-300">
             PsyPhy is a digital collective devoted to the investigation of patterns, perception, and the physics of understanding itself. We archive thought, theory, and discovery in pursuit of deeper meaning.
           </p>
         </motion.div>
