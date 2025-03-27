@@ -10,7 +10,7 @@ export default function PsyPhyHome() {
         backgroundSize: 'contain',
         backgroundPosition: 'center',
         backgroundBlendMode: 'overlay',
-        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+        backgroundColor: 'rgba(0, 0, 0, 0.1)',
       }}
     >
       {/* Hero Section */}
