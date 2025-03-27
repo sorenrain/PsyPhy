@@ -7,8 +7,9 @@ export default function PsyPhyHome() {
       className="min-h-screen text-white px-6 py-16 bg-cover bg-center"
       style={{
         backgroundImage: "url('/book.jpeg')",
-        backgroundSize: 'cover',
+        backgroundSize: 'contain',
         backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
         backgroundBlendMode: 'overlay',
         backgroundColor: 'rgba(0, 0, 0, 0.15)',
       }}
