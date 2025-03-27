@@ -10,7 +10,7 @@ export default function PsyPhyHome() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundBlendMode: 'overlay',
-        backgroundColor: 'rgba(0, 0, 0, 0.85)',
+        backgroundColor: 'rgba(0, 0, 0, 0.15)',
       }}
     >
       <motion.h1
