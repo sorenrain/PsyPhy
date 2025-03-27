@@ -3,20 +3,6 @@ import { motion } from 'framer-motion';
 
 export default function PsyPhyHome() {
   return (
-    <motion.div
-  className="text-center mt-4"
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{ delay: 1.4, duration: 1 }}
->
-  <a
-    href="/create"
-    className="mt-4 inline-block px-6 py-3 bg-emerald-600 hover:bg-emerald-700 transition rounded-xl text-white text-lg font-medium shadow-lg"
-  >
-    Create Something
-  </a>
-</motion.div>
-
     <div
       className="min-h-screen text-white px-6 py-16 bg-center bg-no-repeat bg-cover font-sans"
       style={{
