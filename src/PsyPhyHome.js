@@ -31,7 +31,7 @@ export default function PsyPhyHome() {
         <img
           src="/book.jpeg"
           alt="PsyPhy Network for Explorers"
-          className="w-full max-w-5xl mx-auto mt-12 rounded-xl shadow-xl"
+          className="w-96 h-auto mx-auto mt-12 rounded-xl shadow-xl"
         />
 
         <div className="mt-20 max-w-2xl mx-auto space-y-10">
