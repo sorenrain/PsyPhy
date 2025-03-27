@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -43,6 +44,12 @@ export default function PsyPhyHome() {
               theory, and discovery in pursuit of deeper meaning — and welcome all
               who seek.
             </p>
+            <Link
+              href="/archive"
+              className="mt-6 inline-block px-6 py-3 bg-indigo-600 hover:bg-indigo-700 transition rounded-xl text-white text-lg font-medium shadow-lg"
+              >
+          Visit Archive
+              </Link>
           </motion.div>
 
           {/* Archive Section */}
