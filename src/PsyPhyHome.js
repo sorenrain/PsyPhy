@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -44,12 +43,12 @@ export default function PsyPhyHome() {
               theory, and discovery in pursuit of deeper meaning — and welcome all
               who seek.
             </p>
-            <Link
+            <a
               href="/archive"
               className="mt-6 inline-block px-6 py-3 bg-indigo-600 hover:bg-indigo-700 transition rounded-xl text-white text-lg font-medium shadow-lg"
-              >
-          Visit Archive
-              </Link>
+            >
+              Visit Archive
+            </a>
           </motion.div>
 
           {/* Archive Section */}
@@ -70,21 +69,6 @@ export default function PsyPhyHome() {
               <option value="language">Language, Code, & Symmetry</option>
               <option value="sources">Source Texts & Frameworks</option>
             </select>
-          </motion.div>
-
-          {/* Visit Archive Button */}
-          <motion.div
-            className="text-center"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1, duration: 1 }}
-          >
-            <a
-              href="/archive"
-              className="mt-6 inline-block px-6 py-3 bg-indigo-600 hover:bg-indigo-700 transition rounded-xl text-white text-lg font-medium shadow-lg"
-            >
-              Visit Archive
-            </a>
           </motion.div>
 
           {/* CTA Button */}
