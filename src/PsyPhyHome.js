@@ -9,7 +9,6 @@ export default function PsyPhyHome() {
         backgroundImage: "url('/book.jpeg')",
         backgroundSize: 'contain',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
         backgroundBlendMode: 'overlay',
         backgroundColor: 'rgba(0, 0, 0, 0.15)',
       }}
