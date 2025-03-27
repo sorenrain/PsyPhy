@@ -49,9 +49,7 @@ export default function PsyPhyHome() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 1 }}
         >
-          <h2 className="text-2xl font-semibold mb-3 text-emerald-400">
-            About
-          </h2>
+          <h2 className="text-2xl font-semibold mb-3 text-emerald-400">About</h2>
           <p className="text-gray-300">
             PsyPhy is a digital collective devoted to the investigation of patterns,
             perception, and the physics of understanding itself. We archive thought,
@@ -80,12 +78,27 @@ export default function PsyPhyHome() {
           </select>
         </motion.div>
 
+        {/* Visit Archive Button */}
+        <motion.div
+          className="text-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 1 }}
+        >
+          <a
+            href="/archive"
+            className="mt-6 inline-block px-6 py-3 bg-indigo-600 hover:bg-indigo-700 transition rounded-xl text-white text-lg font-medium shadow-lg"
+          >
+            Visit Archive
+          </a>
+        </motion.div>
+
         {/* CTA Button */}
         <motion.div
           className="text-center mt-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 1 }}
+          transition={{ delay: 1.2, duration: 1 }}
         >
           <button className="mt-4 px-6 py-3 bg-gradient-to-r from-emerald-500 to-indigo-600 hover:from-emerald-400 hover:to-indigo-500 transition rounded-xl text-white text-lg font-medium shadow-lg hover:shadow-indigo-500/50">
             Begin Exploring
