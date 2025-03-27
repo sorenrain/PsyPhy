@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function PsyPhyHome() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white px-6 py-16">
+    <div className="min-h-screen bg-gradient-to-br from-black via-emerald-800 to-gray-900 to-black text-white px-6 py-16">
       <motion.h1
         className="text-6xl font-extrabold text-center tracking-tight font-serif"
         initial={{ opacity: 0, y: -20 }}
